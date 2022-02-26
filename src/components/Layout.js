@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Helmet } from 'react-helmet'
+import { withPrefix } from 'gatsby'
 
 import "../assets/css/main.css"
 
@@ -11,10 +12,10 @@ const Layout = ({ children }) => {
       <Helmet>
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
 
-        <script src="../assets/js/scrollreveal.min.js" />       
-        <script src="../assets/js/swiper-bundle.min.js" />
-        <script src="../assets/js/mixitup.min.js" />       
-        <script src="../assets/js/main.js" />       
+        <script src={withPrefix("/js/scrollreveal.min.js")} />       
+        <script src={withPrefix("/js/swiper-bundle.min.js")} />       
+        <script src={withPrefix("/js/mixitup.min.js")} />       
+        <script src={withPrefix("/js/main.js")} />    
       </Helmet>
       
         { children }
