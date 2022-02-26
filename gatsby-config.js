@@ -1,6 +1,7 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://www.yourdomain.tld`,
+        siteUrl: `https://www.erischon.dev`,
+        title: "Portfolio",
     },
     plugins: [
         `gatsby-plugin-react-helmet`

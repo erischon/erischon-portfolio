@@ -3,13 +3,14 @@ import Layout from "../components/Layout"
 
 import Header from "../components/Header"
 
+import portrait from "../assets/img/erischon_b.png"
+
 
 const IndexPage = () => {
   return (
     <Layout>
     
-      <Header />
-
+        <Header />
         
         <main class="main">
             
@@ -29,7 +30,7 @@ const IndexPage = () => {
                     </div>
 
                     <div class="home__handle">
-                        <img src="./assets/img/erischon_b.png" alt="" class="home__img" />
+                        <img src={ portrait } alt="" class="home__img" />
                     </div>
                     <div class="home__social">
                         <a href="https://twitter.com/erischon" class="home__social--link" target="_blank">
@@ -566,8 +567,7 @@ const IndexPage = () => {
                 </div>
             </section>
         </main>
-
-        
+     
         <footer class="footer">
             <div class="footer__container container">
                 <h1 class="footer__title">Eri Schön</h1>
@@ -601,9 +601,6 @@ const IndexPage = () => {
                 </span>
             </div>
         </footer>
-
-
-
 
     </Layout>
   )
