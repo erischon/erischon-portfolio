@@ -2,8 +2,8 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-
 import "../assets/css/main.css"
+
 
 const Layout = ({ children }) => {
   return (
