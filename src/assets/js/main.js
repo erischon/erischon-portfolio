@@ -1,3 +1,4 @@
+document.log("hello")
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader () {

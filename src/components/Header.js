@@ -2,42 +2,42 @@ import React from 'react'
 
 function Header() {
   return (
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">Eri Schön</a>
+    <header className="header" id="header">
+        <nav className="nav container">
+            <a href="#" className="nav__logo">Eri Schön</a>
 
-            <div class="nav__menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class='bx bx-home-alt' ></i>
+            <div className="nav__menu">
+                <ul className="nav__list">
+                    <li className="nav__item">
+                        <a href="#home" className="nav__link active-link">
+                            <i className='bx bx-home-alt' ></i>
                         </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">
-                            <i class='bx bx-user' ></i>
+                    <li className="nav__item">
+                        <a href="#about" className="nav__link">
+                            <i className='bx bx-user' ></i>
                         </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-book'></i>
+                    <li className="nav__item">
+                        <a href="#skills" className="nav__link">
+                            <i className='bx bx-book'></i>
                         </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#work" class="nav__link">
-                            <i class='bx bx-briefcase-alt-2' ></i>
+                    <li className="nav__item">
+                        <a href="#work" className="nav__link">
+                            <i className='bx bx-briefcase-alt-2' ></i>
                         </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class='bx bx-message-square-detail' ></i>
+                    <li className="nav__item">
+                        <a href="#contact" className="nav__link">
+                            <i className='bx bx-message-square-detail' ></i>
                         </a>
                     </li>
                 </ul>
             </div>
 
             
-            <i class='bx bx-moon change-theme' id="theme-button"></i>
+            <i className='bx bx-moon change-theme' id="theme-button"></i>
         </nav>
     </header>
   )
