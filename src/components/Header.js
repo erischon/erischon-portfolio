@@ -14,6 +14,11 @@ function Header() {
                         </a>
                     </li>
                     <li className="nav__item">
+                        <a href="#work" className="nav__link">
+                            <i className='bx bx-briefcase-alt-2' ></i>
+                        </a>
+                    </li>
+                    <li className="nav__item">
                         <a href="#about" className="nav__link">
                             <i className='bx bx-user' ></i>
                         </a>
@@ -23,11 +28,7 @@ function Header() {
                             <i className='bx bx-book'></i>
                         </a>
                     </li>
-                    <li className="nav__item">
-                        <a href="#work" className="nav__link">
-                            <i className='bx bx-briefcase-alt-2' ></i>
-                        </a>
-                    </li>
+
                     <li className="nav__item">
                         <a href="#contact" className="nav__link">
                             <i className='bx bx-message-square-detail' ></i>
