@@ -4,14 +4,14 @@ function Services() {
   return (
     <section className="services section">
         <span className="section__subtitle">Mes Services</span>
-        <h2 className="section__title">What I offer</h2>
+        <h2 className="section__title">Je (re)donne vie à <br /> vos Applications Web</h2>
 
         <div className="services__container container grid">
             <div className="services__card">
-                <h3 className="services__title">Refonte de <br /> Site Web</h3>
+                <h3 className="services__title">Création <br /> d'Appli.</h3>
 
                 <span className="services__button">
-                    See more <i className='bx bx-right-arrow-alt services__icon' ></i>
+                    Détail <i className='bx bx-right-arrow-alt services__icon' ></i>
                 </span>
 
                 <div className="services__modal">
@@ -65,10 +65,10 @@ function Services() {
             </div>
 
             <div className="services__card">
-                <h3 className="services__title">Ui/Ux <br /> Designer</h3>
+                <h3 className="services__title">Refonte &<br /> Migration</h3>
 
                 <span className="services__button">
-                    See more <i className='bx bx-right-arrow-alt services__icon' ></i>
+                    Détail <i className='bx bx-right-arrow-alt services__icon' ></i>
                 </span>
 
                 <div className="services__modal">
@@ -122,10 +122,10 @@ function Services() {
             </div>
 
             <div className="services__card">
-                <h3 className="services__title">Visual <br /> Designer</h3>
+                <h3 className="services__title">Entretien &<br /> Mise à Jour</h3>
 
                 <span className="services__button">
-                    See more <i className='bx bx-right-arrow-alt services__icon' ></i>
+                    Détail <i className='bx bx-right-arrow-alt services__icon' ></i>
                 </span>
 
                 <div className="services__modal">
