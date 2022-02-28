@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import WorkItem from './work-item/work-item';
+import { workData } from './work-item/work-item.data';
+
 
 class Work extends Component {
 
@@ -17,30 +20,10 @@ class Work extends Component {
             </div>
 
             <div className="work__container container grid">
-                <div className="work__card mix web">
-                    <img src="assets/img/work1.jpg" alt="" className="work__img" />
 
-                    <h3 className="work__title">Appli Web</h3>
-
-                    <a href="#" className="work__button">
-                        Demo <i className='bx bx-right-arrow-alt work__icon' ></i>
-                    </a>
-                </div>
-
-                <div className="work__card mix refonte">
-                    <img src="assets/img/work2.jpg" alt="" className="work__img" />
-
-                    <h3 className="work__title">Refonte</h3>
-
-                    <a href="#" className="work__button">
-                        Demo <i className='bx bx-right-arrow-alt work__icon' ></i>
-                    </a>
-                </div>
-
-
-
-
-
+                { workData.map(({ name, image, demoUrl, tags }) => {
+                        return <WorkItem name={ name } image={ image } demoUrl={ demoUrl } tags={ tags } />
+                })}
 
             </div>
             </section>

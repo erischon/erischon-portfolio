@@ -675,6 +675,20 @@ body.light-theme {
   margin-bottom: .25rem;
 }
 
+.work__tag--container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: .25rem;
+}
+
+.work__tag {
+  background-color: var(--first-color-alt);
+  color: var(--body-color);
+  font-size: var(--small-font-size);
+  margin: 0 .25rem;
+  padding: 0 .50rem;
+}
+
 .work__button {
   width: max-content;
   color: var(--first-color);
