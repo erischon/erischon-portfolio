@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import Header from "../components/Header"
 import Home from "../components/Home"
 import About from "../components/About"
+import Skills from "../components/Skills"
 import Work from "../components/Work"
 
 
@@ -15,137 +16,13 @@ const IndexPage = () => {
         
         <main className="main">
             <Home />
-            <About />   
+            <About />
+            <Skills />   
             
 
 
             
-            <section className="skills section" id="skills">
-                <span className="section__subtitle">My abilities</span>
-                <h2 className="section__title">My experience</h2>
 
-                <div className="skills__container container grid">
-                    <div className="skills__content">
-                        <h3 className="skills__title">Developpement Frontend</h3>
-
-                        <div className="skills__box">
-                            <div className="skills__group">
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">HTML</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">CSS</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>                                
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">Javascript</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="skills__group">
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">Git</h3>
-                                        <span className="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">Tailwindcss</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>                                
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">React</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="skills__content">
-                        <h3 className="skills__title">Developpement Backend</h3>
-
-                        <div className="skills__box">
-                            <div className="skills__group">
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">Python</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">Django</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>                                
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">PostgreSQL</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="skills__group">
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">Node.js</h3>
-                                        <span className="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">Express</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>                                
-                                <div className="skills__data">
-                                    <i className='bx bxs-badge-check'></i>
-                                    
-                                    <div>
-                                        <h3 className="skills__name">MongoDB</h3>
-                                        <span className="skills__level">Intermédiaire</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             
             <section className="services section">
