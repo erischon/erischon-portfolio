@@ -19,11 +19,11 @@ const IndexPage = () => {
         
         <main className="main">
             <Home />
-            <About />
-            <Skills />
             <Services />
             <Work />
             <Testimonial />
+            <About />
+            <Skills />
             <Contact />
         </main>
      
