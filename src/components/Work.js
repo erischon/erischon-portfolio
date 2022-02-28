@@ -21,8 +21,8 @@ class Work extends Component {
 
             <div className="work__container container grid">
 
-                { workData.map(({ name, image, demoUrl, tags }) => {
-                        return <WorkItem name={ name } image={ image } demoUrl={ demoUrl } tags={ tags } />
+                { workData.map(({ name, image, liveUrl, backUrl, frontUrl, tags }) => {
+                        return <WorkItem name={ name } image={ image } liveUrl={ liveUrl } backUrl={ backUrl} frontUrl={ frontUrl } tags={ tags } />
                 })}
 
             </div>

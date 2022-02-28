@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const WorkItem = ({ name, image, demoUrl, tags }) => {
+const WorkItem = ({ name, image, liveUrl, backUrl, frontUrl, tags }) => {
   return (
     <div className="work__card mix web">
         <img src={ `/images/${ image }` } alt="" className="work__img" />
@@ -14,9 +14,18 @@ const WorkItem = ({ name, image, demoUrl, tags }) => {
             }) }        
         </div>
 
-        <a href={ demoUrl } className="work__button">
-            Demo <i className='bx bx-right-arrow-alt work__icon' ></i>
-        </a>
+        <div className='work__button--container'>
+            <a href={ backUrl } className="work__button button" target="_blank" rel="noopener noreferrer">
+                Back
+            </a>
+            <a href={ frontUrl } className="work__button button" target="_blank" rel="noopener noreferrer">
+                Front
+            </a>
+            <a href={ liveUrl } className="work__button button" target="_blank" rel="noopener noreferrer">
+                Live
+            </a>
+        </div>
+
     </div>
   )
 }
