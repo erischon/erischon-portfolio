@@ -6,6 +6,8 @@ import Home from "../components/Home"
 import About from "../components/About"
 import Skills from "../components/Skills"
 import Work from "../components/Work"
+import Testimonial from "../components/Testimonial"
+import Services from "../components/Services"
 
 
 const IndexPage = () => {
@@ -17,234 +19,10 @@ const IndexPage = () => {
         <main className="main">
             <Home />
             <About />
-            <Skills />   
-            
-
-
-            
-
-
-            
-            <section className="services section">
-                <span className="section__subtitle">My Services</span>
-                <h2 className="section__title">What I offer</h2>
-
-                <div className="services__container container grid">
-                    <div className="services__card">
-                        <h3 className="services__title">Product <br /> Designer</h3>
-
-                        <span className="services__button">
-                            See more <i className='bx bx-right-arrow-alt services__icon' ></i>
-                        </span>
-
-                        <div className="services__modal">
-                            <div className="services__modal--content">
-                                <i className='bx bx-x services__modal--close'></i>
-
-                                <h3 className="services__modal--title">Product Designer</h3>
-                                <p className="services__modal--description">
-                                    Service with more than 3 years of experience. 
-                                    Providing quality work to clients and companies.
-                                </p>
-                                
-                                <ul className="services__modal--list">
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="services__card">
-                        <h3 className="services__title">Ui/Ux <br /> Designer</h3>
-
-                        <span className="services__button">
-                            See more <i className='bx bx-right-arrow-alt services__icon' ></i>
-                        </span>
-
-                        <div className="services__modal">
-                            <div className="services__modal--content">
-                                <i className='bx bx-x services__modal--close'></i>
-
-                                <h3 className="services__modal--title">Ui/UX Designer</h3>
-                                <p className="services__modal--description">
-                                    Service with more than 3 years of experience. 
-                                    Providing quality work to clients and companies.
-                                </p>
-                                
-                                <ul className="services__modal--list">
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="services__card">
-                        <h3 className="services__title">Visual <br /> Designer</h3>
-
-                        <span className="services__button">
-                            See more <i className='bx bx-right-arrow-alt services__icon' ></i>
-                        </span>
-
-                        <div className="services__modal">
-                            <div className="services__modal--content">
-                                <i className='bx bx-x services__modal--close'></i>
-
-                                <h3 className="services__modal--title">Visual designer</h3>
-                                <p className="services__modal--description">
-                                    Service with more than 3 years of experience. 
-                                    Providing quality work to clients and companies.
-                                </p>
-                                
-                                <ul className="services__modal--list">
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-
-                                    <li className="services__modal--item">
-                                        <i className='bx bx-check services__modal--icon' ></i>
-                                        <p className="services__modal--info">
-                                            I develop the user interface.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            
+            <Skills />
+            <Services />
             <Work />
-
-            
-            <section className="testimonial section">
-                <span className="section__subtitle">My clients say</span>
-                <h2 className="section__title">Testimonial</h2>
-
-                <div className="testimonial__container container swiper">
-                    <div className="swiper-wrapper">
-                        <div className="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial1.png" alt="" className="testimonial__img" />
-
-                            <h3 className="testimonial__name">John Doe</h3>
-                            <p className="testimonial__description">
-                                A really good job, all aspects of the project were followed step by step and with good results.
-                            </p>
-                        </div>
-
-                        <div className="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial2.png" alt="" className="testimonial__img" />
-
-                            <h3 className="testimonial__name">Paula Vusy</h3>
-                            <p className="testimonial__description">
-                                A really good job, all aspects of the project were followed step by step and with good results.
-                            </p>
-                        </div>
-
-                        <div className="testimonial__card swiper-slide">
-                            <img src="assets/img/testimonial3.png" alt="" className="testimonial__img" />
-
-                            <h3 className="testimonial__name">Sara Cill</h3>
-                            <p className="testimonial__description">
-                                A really good job, all aspects of the project were followed step by step and with good results.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="swiper-pagination"></div>
-                </div>
-            </section>
-
+            <Testimonial />
             
             <section className="contact section" id="contact">
                 <span className="section__subtitle">Get in Touch</span>
@@ -342,7 +120,7 @@ const IndexPage = () => {
                 </ul>
 
                 <span className="footer__copy">
-                    &#169 Eri Schön All rights reserved
+                    &copy; { new Date().getFullYear() } Eri Schön All rights reserved
                 </span>
             </div>
         </footer>
