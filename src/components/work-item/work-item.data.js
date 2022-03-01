@@ -2,7 +2,7 @@ export const workData = [
     {
         id: "1",
         name: "What Colors",
-        type: "Appli",
+        type: "appli",
         image: "whatcolor-640x420-1.jpg",
         liveUrl: "https://whatcolors.netlify.app/",
         backUrl: "https://github.com/erischon/whatcolors-back",
@@ -12,7 +12,7 @@ export const workData = [
     {
         id: "2",
         name: "Portfolio",
-        type: "Appli",
+        type: "appli",
         image: "portfolio-640x420-1.jpg",
         demoUrl: "https://erischon-portfolio.netlify.app/",
         backUrl: "",

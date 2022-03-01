@@ -1,12 +1,27 @@
 import React, { Component } from 'react';
 
-import WorkItem from './work-item/work-item';
 import { workData } from './work-item/work-item.data';
+import WorkCollection from './work-collection/work-collection';
 
 
 class Work extends Component {
+    constructor (props) {
+        super(props)
+        this.state = {
+            type: "appli",
+            workData: workData
+        }
+    }
 
+    setType(type) {
+        return this.setState({type: type})
+    }
+    
+    
     render() {
+        const { type, workData } = this.state
+        const filteredWork = workData.filter(work => work.type === this.state.type )
+
         return (
             <section className="work section" id="work">
             <span className="section__subtitle">My Portfolio</span>
@@ -14,18 +29,13 @@ class Work extends Component {
 
             <div className="work__filters">
                 <span className="work__item active-work" data-filter="all">All</span>
-                <span className="work__item" data-filter=".web">Appli Web</span>
-                <span className="work__item" data-filter=".refonte">Refonte</span>
-                <span className="work__item" data-filter=".entretien">Entretien</span>
+                <span className="work__item" onClick={ (e) => this.setType("appli", e) }>Appli Web</span>
+                <span className="work__item" onClick={ (e) => this.setType("refonte", e) }>Refonte</span>
+                <span className="work__item" onClick={ (e) => this.setType("entretien", e) }>Entretien</span>
             </div>
 
-            <div className="work__container container grid">
+            <WorkCollection workData={ filteredWork } />
 
-                { workData.map(({ name, image, liveUrl, backUrl, frontUrl, tags }) => {
-                        return <WorkItem name={ name } image={ image } liveUrl={ liveUrl } backUrl={ backUrl} frontUrl={ frontUrl } tags={ tags } />
-                })}
-
-            </div>
             </section>
         );
     }
