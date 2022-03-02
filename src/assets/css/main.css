@@ -658,10 +658,16 @@ body.light-theme {
   border-radius: .5rem;
 }
 
+.work__item:hover {
+  background-color: var(--first-color);
+  color: var(--body-color);
+}
+
 .work__card {
   background-color: var(--container-color);
   padding: 1rem;
   border-radius: 1rem;
+  max-width: 340px;
 }
 
 .work__img {
@@ -679,6 +685,7 @@ body.light-theme {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: .25rem;
+  flex-basis: content;
 }
 
 .work__tag {
@@ -695,17 +702,26 @@ body.light-theme {
 }
 
 .work__button {
-  width: max-content;
+  color: var(--first-color);
   font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .25rem;
 }
 
-.work__button:hover .work__icon {
+.work__button:hover {
   transform: translateX(.25rem);
 }
 
 .work__icon {
-  font-size: 1rem;
+  font-size: 1.1rem;
   transition: .4s;
+}
+
+.work__description {
+  font-size: var(--small-font-size);
+  margin-bottom: 1rem;
 }
 
 

@@ -34,7 +34,7 @@ function Home() {
             </a>
         </div>
 
-        <a href="#about" className="home__scroll">
+        <a href="#services" className="home__scroll">
             <i className='bx bx-mouse home__scroll--icon'></i>
             <span className="home__scroll--name">Scroll Down</span>
         </a>

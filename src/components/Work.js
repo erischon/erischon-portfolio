@@ -8,7 +8,7 @@ class Work extends Component {
     constructor (props) {
         super(props)
         this.state = {
-            type: "appli",
+            type: "",
             workData: workData
         }
     }
@@ -20,18 +20,22 @@ class Work extends Component {
     
     render() {
         const { type, workData } = this.state
-        const filteredWork = workData.filter(work => work.type === this.state.type )
+
+
+        const filteredWork = (this.state.type !== "" ) ? workData.filter(work => work.type === this.state.type) : workData
+
+        
 
         return (
             <section className="work section" id="work">
-            <span className="section__subtitle">My Portfolio</span>
-            <h2 className="section__title">Recent Work</h2>
+            <span className="section__subtitle">Mon Portfolio</span>
+            <h2 className="section__title">Projets Récents</h2>
 
             <div className="work__filters">
-                <span className="work__item active-work" data-filter="all">All</span>
-                <span className="work__item" onClick={ (e) => this.setType("appli", e) }>Appli Web</span>
-                <span className="work__item" onClick={ (e) => this.setType("refonte", e) }>Refonte</span>
-                <span className="work__item" onClick={ (e) => this.setType("entretien", e) }>Entretien</span>
+                <span className="work__item" onClick={ (e) => this.setType("", e) } data-filter="all">Tous</span>
+                <span className="work__item" onClick={ (e) => this.setType("full", e) }>Full Stack</span>
+                <span className="work__item" onClick={ (e) => this.setType("back", e) }>Backend</span>
+                <span className="work__item" onClick={ (e) => this.setType("front", e) }>Frontend</span>
             </div>
 
             <WorkCollection workData={ filteredWork } />

@@ -12,9 +12,7 @@ const Layout = ({ children }) => {
       <Helmet>
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
 
-        <script src={withPrefix("/js/scrollreveal.min.js")} />       
-        <script src={withPrefix("/js/swiper-bundle.min.js")} />       
-        <script src={withPrefix("/js/mixitup.min.js")} />       
+    
         <script src={withPrefix("/js/main.js")} />    
       </Helmet>
       
