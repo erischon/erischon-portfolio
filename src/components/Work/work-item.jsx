@@ -47,7 +47,7 @@ const WorkItem = ({ name, type, description, image, liveUrl, backUrl, frontUrl, 
         <div className="work__card mix web">
             <img src={ `/images/${ image }` } alt="" className="work__img" />
             
-            <h3 className="work__title">{ name }</h3>
+            <h2 className="work__title">{ name }</h2>
             <p className='work__description'>{ description }</p>
 
             <div className='work__tag--container'>

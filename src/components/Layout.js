@@ -11,8 +11,6 @@ const Layout = ({ children }) => {
     <React.Fragment>
       <Helmet>
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
-
-    
         <script src={withPrefix("/js/main.js")} />    
       </Helmet>
       

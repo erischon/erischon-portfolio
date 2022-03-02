@@ -1,6 +1,6 @@
 import React from "react"
 
-import WorkItem from "../work-item/work-item"
+import WorkItem from "./work-item"
 
 
 const WorkCollection = ({ workData }) => {

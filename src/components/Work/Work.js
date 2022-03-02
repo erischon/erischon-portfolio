@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import { workData } from './work-item/work-item.data';
-import WorkCollection from './work-collection/work-collection';
+import "./work.styles.css"
+import { workData } from './work-item.data';
+import WorkCollection from './work-collection';
 
 
 class Work extends Component {
@@ -20,11 +21,7 @@ class Work extends Component {
     
     render() {
         const { type, workData } = this.state
-
-
         const filteredWork = (this.state.type !== "" ) ? workData.filter(work => work.type === this.state.type) : workData
-
-        
 
         return (
             <section className="work section" id="work">
