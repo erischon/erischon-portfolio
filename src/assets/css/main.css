@@ -690,8 +690,8 @@ body.light-theme {
 
 .work__tag {
   color: var(--text-color);
-  font-size: var(--small-font-size);
-  font-style: italic;
+  font-size: var(--tiny-font-size);
+  font-weight: var(--font-semibold);
   margin-right: 1rem;
 }
 
