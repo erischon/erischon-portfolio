@@ -1,19 +1,22 @@
 import React from 'react'
 
+import bsharpe from "../assets/img/b-sharpe.jpg"
+
 function Testimonial() {
   return (
     <section className="testimonial section">
-        <span className="section__subtitle">My clients say</span>
-        <h2 className="section__title">Testimonial</h2>
+        <span className="section__subtitle">Ce que mes Clients disent de moi</span>
+        <h2 className="section__title">Témoignages</h2>
 
         <div className="testimonial__container container swiper">
             <div className="swiper-wrapper">
                 <div className="testimonial__card swiper-slide">
-                    <img src="assets/img/testimonial1.png" alt="" className="testimonial__img" />
+                    <img src={ bsharpe } alt="B-Sharpe" className="testimonial__img" />
 
-                    <h3 className="testimonial__name">John Doe</h3>
+                    <h3 className="testimonial__name">Julien Dubost</h3>
                     <p className="testimonial__description">
-                        A
+                    Approche rigoureuse et centrée sur les tests. Très bon relationnel pour s'intégrer efficacement dans l'équipe.<br />
+                    Bonne continuation dans le dev python-backend !
                     </p>
                 </div>
                 
