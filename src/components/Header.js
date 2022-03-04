@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ThemeButton from './theme-button/theme-button'
+
 function Header() {
   return (
     <header className="header" id="header">
@@ -37,8 +39,8 @@ function Header() {
                 </ul>
             </div>
 
+            <ThemeButton />
             
-            <i className='bx bx-moon change-theme' id="theme-button"></i>
         </nav>
     </header>
   )
