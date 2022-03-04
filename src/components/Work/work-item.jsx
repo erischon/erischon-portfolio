@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const WorkItem = ({ name, type, description, image, liveUrl, backUrl, frontUrl, tags }) => {
+const WorkItem = ({ id, name, type, description, image, liveUrl, backUrl, frontUrl, tags }) => {
 
     const itemButton = (type) => {
         if (type === "back") {
@@ -52,7 +52,7 @@ const WorkItem = ({ name, type, description, image, liveUrl, backUrl, frontUrl, 
 
             <div className='work__tag--container'>
                 { tags.map(tag => {
-                    return <span className='work__tag'>{ tag }</span>
+                    return <span key={ `${id}-${tag}` } className='work__tag'>{ tag }</span>
                 }) }        
             </div>
     
