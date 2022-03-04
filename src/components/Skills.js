@@ -140,13 +140,13 @@ function Skills() {
                     <div className="skills__data">
                         <i className='bx bxs-badge-check'></i>       
                         <div>
-                            <h3 className="skills__name">Nginx</h3>
+                            <h3 className="skills__name"></h3>
                         </div>
                     </div>                                
                     <div className="skills__data">
-                        <i className='bx bxs-badge-check'></i>          
+                        <i className='bx bxs-badge-check'>Firebase</i>          
                         <div>
-                            <h3 className="skills__name">Gunicorn</h3>
+                            <h3 className="skills__name">Nginx</h3>
                         </div>
                     </div>
                 </div>
