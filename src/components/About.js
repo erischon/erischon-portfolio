@@ -33,7 +33,8 @@ function About() {
                 </div>
 
                 <p className="about__description">
-                    Je suis un Développeur Back-end Python Freelance avec une expertise en création et modification d’application Web et d’API REST sous Django ou Flask. J’ai aussi une bonne expérience dans le domaine du Testing Backend.
+                    Je suis un Développeur d'Application Freelance ayant une expertise en création et modification d’application Web et d’API REST.<br />
+                    
                 </p>
 
                 <a href="#contact" className="button">Me Contacter</a>
