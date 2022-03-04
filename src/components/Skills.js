@@ -40,13 +40,13 @@ function Skills() {
                             </div>
                         </div>
                         <div className="skills__data">
-                            <i className='bx bxs-badge-check'></i>           
+                            <i class='bx bx-badge-check' ></i>           
                             <div>
                                 <h3 className="skills__name">Next.js</h3>
                             </div>
                         </div>                                
                         <div className="skills__data">
-                            <i className='bx bxs-badge-check'></i>                            
+                            <i class='bx bx-badge-check' ></i>                            
                             <div>
                                 <h3 className="skills__name">Gatsby</h3>
                             </div>
@@ -73,7 +73,7 @@ function Skills() {
                             </div>
                         </div>                                
                         <div className="skills__data">
-                            <i className='bx bxs-badge-check'></i>  
+                            <i class='bx bx-data'></i>  
                             <div>
                                 <h3 className="skills__name">PostgreSQL</h3>
                             </div>
@@ -88,15 +88,13 @@ function Skills() {
                             </div>
                         </div>
                         <div className="skills__data">
-                            <i className='bx bxs-badge-check'></i>
-                            
+                            <i class='bx bx-badge-check' ></i>
                             <div>
                                 <h3 className="skills__name">Express</h3>
                             </div>
                         </div>                                
                         <div className="skills__data">
-                            <i className='bx bxs-badge-check'></i>
-                            
+                            <i class='bx bx-data'></i>             
                             <div>
                                 <h3 className="skills__name">MongoDB</h3>
                             </div>
@@ -123,7 +121,7 @@ function Skills() {
                         </div>
                     </div>                                
                     <div className="skills__data">
-                        <i className='bx bxs-badge-check'></i>
+                        <i class='bx bx-badge-check' ></i>
                         <div>
                             <h3 className="skills__name">TDD</h3>
                         </div>
