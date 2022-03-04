@@ -33,13 +33,13 @@ const IndexPage = () => {
 
                 <ul className="footer__list">
                     <li>
-                        <a href="#about" className="footer__link">About</a>
+                        <a href="#about" className="footer__link">A propos</a>
                     </li>
                     <li>
-                        <a href="#work" className="footer__link">Projects</a>
+                        <a href="#work" className="footer__link">Projets</a>
                     </li>
                     <li>
-                        <a href="#testimonial" className="footer__link">Testimonials</a>
+                        <a href="#testimonial" className="footer__link">Témoignages</a>
                     </li>
                 </ul>
 
