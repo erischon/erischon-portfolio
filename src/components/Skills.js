@@ -106,7 +106,7 @@ function Skills() {
             </div>
 
             <div className="skills__content">
-            <h3 className="skills__title">Divers</h3>
+            <h3 className="skills__title">Outils / Deploy</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
@@ -117,9 +117,9 @@ function Skills() {
                         </div>
                     </div>
                     <div className="skills__data">
-                        <i className='bx bxs-badge-check'></i>   
+                        <i class='bx bxl-firebase'></i>   
                         <div>
-                            <h3 className="skills__name">Agile</h3>
+                            <h3 className="skills__name">Firebase</h3>
                         </div>
                     </div>                                
                     <div className="skills__data">
@@ -138,15 +138,15 @@ function Skills() {
                         </div>
                     </div>
                     <div className="skills__data">
-                        <i className='bx bxs-badge-check'></i>       
+                        <i class='bx bxl-digitalocean' ></i>       
                         <div>
-                            <h3 className="skills__name"></h3>
+                            <h3 className="skills__name">DigitalOcean</h3>
                         </div>
                     </div>                                
                     <div className="skills__data">
-                        <i className='bx bxs-badge-check'>Firebase</i>          
+                        <i class='bx bxl-netlify' ></i>          
                         <div>
-                            <h3 className="skills__name">Nginx</h3>
+                            <h3 className="skills__name">Netlify</h3>
                         </div>
                     </div>
                 </div>
