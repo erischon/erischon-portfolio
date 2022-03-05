@@ -44,13 +44,13 @@ const IndexPage = () => {
                 </ul>
 
                 <ul className="footer__social">
-                    <a href="https://twitter.com/erischon" target="_blank" className="footer__social--link">
+                    <a href="https://twitter.com/erischon" target="_blank" rel="noopener noreferrer" className="footer__social--link">
                         <i className='bx bxl-twitter' ></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/ericschonhofen/" target="_blank" className="footer__social--link">
+                    <a href="https://www.linkedin.com/in/ericschonhofen/" target="_blank" rel="noopener noreferrer" className="footer__social--link">
                         <i className='bx bxl-linkedin' ></i>
                     </a>
-                    <a href="https://github.com/erischon" target="_blank" className="footer__social--link">
+                    <a href="https://github.com/erischon" target="_blank" rel="noopener noreferrer" className="footer__social--link">
                         <i className='bx bxl-github' ></i>
                     </a>
                 </ul>

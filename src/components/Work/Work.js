@@ -20,7 +20,7 @@ class Work extends Component {
     
     
     render() {
-        const { type, workData } = this.state
+        const { workData } = this.state
         const filteredWork = (this.state.type !== "" ) ? workData.filter(work => work.type === this.state.type) : workData
 
         return (
@@ -29,10 +29,10 @@ class Work extends Component {
             <h2 className="section__title">Projets Récents</h2>
 
             <div className="work__filters">
-                <span className="work__item" onClick={ (e) => this.setType("", e) }>Tous</span>
-                <span className="work__item" onClick={ (e) => this.setType("full", e) }>Full Stack</span>
-                <span className="work__item" onClick={ (e) => this.setType("back", e) }>Backend</span>
-                <span className="work__item" onClick={ (e) => this.setType("front", e) }>Frontend</span>
+                <span role="link" className="work__item" onClick={ (e) => this.setType("", e) } onKeyDown={ (e) => this.setType("", e) }>Tous</span>
+                <span role="link" className="work__item" onClick={ (e) => this.setType("full", e) } onKeyDown={ (e) => this.setType("", e) }>Full Stack</span>
+                <span role="link" className="work__item" onClick={ (e) => this.setType("back", e) } onKeyDown={ (e) => this.setType("", e) }>Backend</span>
+                <span role="link" className="work__item" onClick={ (e) => this.setType("front", e) } onKeyDown={ (e) => this.setType("", e) }>Frontend</span>
             </div>
 
             <WorkCollection workData={ filteredWork } />

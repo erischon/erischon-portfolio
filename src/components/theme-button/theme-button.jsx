@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class ThemeButton extends Component {
-    constructor () {
-        super()
-    }
 
     handleChange () {
         const themeButton = document.getElementById('theme-button')
@@ -40,7 +37,7 @@ class ThemeButton extends Component {
         return (
 
             <div>
-                <i className='bx bx-moon change-theme' id="theme-button" onClick={ this.handleChange }></i>
+                <i role="button" className='bx bx-moon change-theme' id="theme-button" onClick={ this.handleChange } onKeyDown={ this.handleChange }></i>
             </div>
         );
     }

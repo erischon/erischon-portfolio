@@ -25,13 +25,13 @@ function Home() {
             <img src={ portrait } alt="" className="home__img" />
         </div>
         <div className="home__social">
-            <a href="https://twitter.com/erischon" className="home__social--link" target="_blank">
+            <a href="https://twitter.com/erischon" className="home__social--link" target="_blank" rel="noopener noreferrer">
                 <i className='bx bxl-twitter' ></i>
             </a>
-            <a href="https://www.linkedin.com/in/ericschonhofen/" className="home__social--link" target="_blank">
+            <a href="https://www.linkedin.com/in/ericschonhofen/" className="home__social--link" target="_blank" rel="noopener noreferrer">
                 <i className='bx bxl-linkedin-square'></i>
             </a>
-            <a href="https://github.com/erischon" className="home__social--link" target="_blank">
+            <a href="https://github.com/erischon" className="home__social--link" target="_blank" rel="noopener noreferrer">
                 <i className='bx bxl-github'></i>
             </a>
         </div>

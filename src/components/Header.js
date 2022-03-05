@@ -8,7 +8,7 @@ function Header() {
     <header className="header" id="header">
         <nav className="nav container">
             <div className='nav__logo--container'>
-                <img src={ logo } className="nav__logo--image" />
+                <img src={ logo } alt="Eri Schön's logo" className="nav__logo--image" />
                 <a href="#home" className="nav__logo">Eri Schön</a>
             </div>
 

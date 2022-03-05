@@ -11,7 +11,7 @@ const WorkItem = ({ id, name, type, description, image, liveUrl, backUrl, frontU
                         Live
                     </a>
                     <a href={ backUrl } className="work__button" target="_blank" rel="noopener noreferrer">
-                        <i class='bx bxl-github work__icon'></i> Back
+                        <i className='bx bxl-github work__icon'></i> Back
                     </a>
                 </div> 
             )   
@@ -22,7 +22,7 @@ const WorkItem = ({ id, name, type, description, image, liveUrl, backUrl, frontU
                         Live
                     </a>
                     <a href={frontUrl } className="work__button" target="_blank" rel="noopener noreferrer">
-                        <i class='bx bxl-github work__icon'></i> Front
+                        <i className='bx bxl-github work__icon'></i> Front
                     </a>
                 </div>
             )
@@ -33,10 +33,10 @@ const WorkItem = ({ id, name, type, description, image, liveUrl, backUrl, frontU
                         Live
                     </a>
                     <a href={ backUrl } className="work__button" target="_blank" rel="noopener noreferrer">
-                        <i class='bx bxl-github work__icon'></i> Back
+                        <i className='bx bxl-github work__icon'></i> Back
                     </a>
                     <a href={frontUrl } className="work__button" target="_blank" rel="noopener noreferrer">
-                        <i class='bx bxl-github work__icon'></i> Front
+                        <i className='bx bxl-github work__icon'></i> Front
                     </a>
                 </div>
             )
@@ -51,8 +51,8 @@ const WorkItem = ({ id, name, type, description, image, liveUrl, backUrl, frontU
             <p className='work__description'>{ description }</p>
 
             <div className='work__tag--container'>
-                { tags.map(tag => {
-                    return <span key={ `${id}-${tag}` } className='work__tag'>{ tag }</span>
+                { tags.map((tag, index) => {
+                    return <span key={ index } className='work__tag'>{ tag }</span>
                 }) }        
             </div>
     
