@@ -3,7 +3,7 @@ export const workData = [
         id: "1",
         name: "What Colors",
         type: "full",
-        description:"Application Web qui trouve les couleurs dans une image.",
+        description:"Application Web qui identifie les couleurs dans une image.",
         image: "whatcolor-640x420-2.jpg",
         liveUrl: "https://whatcolors.netlify.app/",
         backUrl: "https://github.com/erischon/whatcolors-back",
