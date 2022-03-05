@@ -11,7 +11,7 @@ function Header() {
             <div className="nav__menu">
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <a href="#home" className="nav__link active-link">
+                        <a href="#home" className="nav__link">
                             <i className='bx bx-home-alt' ></i>
                         </a>
                     </li>
