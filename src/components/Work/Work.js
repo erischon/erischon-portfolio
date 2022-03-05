@@ -29,7 +29,7 @@ class Work extends Component {
             <h2 className="section__title">Projets Récents</h2>
 
             <div className="work__filters">
-                <span className="work__item" onClick={ (e) => this.setType("", e) } data-filter="all">Tous</span>
+                <span className="work__item" onClick={ (e) => this.setType("", e) }>Tous</span>
                 <span className="work__item" onClick={ (e) => this.setType("full", e) }>Full Stack</span>
                 <span className="work__item" onClick={ (e) => this.setType("back", e) }>Backend</span>
                 <span className="work__item" onClick={ (e) => this.setType("front", e) }>Frontend</span>
