@@ -46,7 +46,8 @@ function Contact() {
             <div className="contact__content">
                 <h3 className="contact__title">Expliquez-moi votre Projet</h3>
 
-                <form action="" className="contact__form">
+                <form name="contact" className="contact__form" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="contact__form--div">
                         <label htmlFor="" className="contact__form--tag">Nom</label>
                         <input type="text" placeholder="Votre nom" className="contact__form--input" />
@@ -62,7 +63,7 @@ function Contact() {
                         <textarea name="" id="" cols="30" rows="10" placeholder="Votre projet" className="contact__form--input"></textarea>
                     </div>
 
-                    <button className="button">Envoyer le message</button>
+                    <button type="submit" className="button">Envoyer le message</button>
                 </form>
             </div>
         </div>
