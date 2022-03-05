@@ -146,8 +146,6 @@ body.light-theme {
   background-color: var(--body-color);
 }
 
-.light-theme .home__social--link,
-.light-theme .home__scroll,
 .light-theme .button,
 .light-theme .button:hover,
 .light-theme .active-work,
@@ -155,6 +153,11 @@ body.light-theme {
 .light-theme .footer__link,
 .light-theme .footer__copy {
   color: var(--body-color);
+}
+
+.light-theme .home__social--link,
+.light-theme .home__scroll, {
+  color: var(--title-color);
 }
 
 .light-theme .button--ghost {
@@ -242,6 +245,17 @@ body.light-theme {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav__logo--container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav__logo--image {
+  margin-right: 0.5rem;
+  width: 25px;
 }
 
 .nav__logo {
