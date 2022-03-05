@@ -47,6 +47,7 @@ function Contact() {
                 <h3 className="contact__title">Expliquez-moi votre Projet</h3>
 
                 <form name="contact" className="contact__form" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="bot-field" />
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="contact__form--div">
                         <label htmlFor="" className="contact__form--tag">Nom</label>
