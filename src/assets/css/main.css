@@ -5,21 +5,13 @@
 :root {
   --header-height: 3.5rem;
 
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /*
-        Purple: hsl(250, 66%, 75%)
-        Blue: hsl(207, 90%, 72%)
-        Pink: hsl(356, 66%, 75%)
-        Teal: hsl(174, 63%, 62%)
-  */
-  --first-hue: 250;
-  --sat: 66%;
-  --lig: 75%;
+  --first-hue: 262;
+  --sat: 47%;
+  --lig: 68%;
   --second-hue: 219;
 
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 47%);
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
@@ -151,7 +143,7 @@ body.light-theme {
 
 .light-theme .home__social::after,
 .light-theme .footer__social--link {
-  background-color: var(--title-color);
+  background-color: var(--body-color);
 }
 
 .light-theme .home__social--link,
@@ -162,6 +154,10 @@ body.light-theme {
 .light-theme .footer__title,
 .light-theme .footer__link,
 .light-theme .footer__copy {
+  color: var(--body-color);
+}
+
+.light-theme .button--ghost {
   color: var(--title-color);
 }
 
@@ -175,6 +171,10 @@ body.light-theme {
 .light-theme .testimonial__card,
 .light-theme .contact__card {
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, .1);
+}
+
+.light-theme .work__tag--container {
+  background-color: hsla(var(--first-hue), 32%, 10%, .1);
 }
 
 .light-theme::-webkit-scrollbar {
@@ -277,6 +277,16 @@ body.light-theme {
   padding: .4rem;
   display: flex;
   border-radius: 5rem;
+}
+
+.nav__link:hover {
+  background: linear-gradient(
+    180deg, 
+    hsla(var(--first-hue), var(--sat), var(--lig), 1),
+    hsla(var(--first-hue), var(--sat), var(--lig), .2)
+  );
+  box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
+  color: var(--title-color);
 }
 
 /* Active link */
@@ -946,7 +956,7 @@ body.light-theme {
   }
 
   .section {
-    padding: 6.5rem 0 1rem;
+    padding: 5.5rem 0 1rem;
   }
   .section__title {
     margin-bottom: 3.5rem;
