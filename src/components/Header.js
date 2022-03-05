@@ -1,12 +1,16 @@
 import React from 'react'
 
 import ThemeButton from './theme-button/theme-button'
+import logo from "../assets/img/logo-es-classic-A488D4-1.png"
 
 function Header() {
   return (
     <header className="header" id="header">
         <nav className="nav container">
-            <a href="#home" className="nav__logo">Eri Schön</a>
+            <div className='nav__logo--container'>
+                <img src={ logo } className="nav__logo--image" />
+                <a href="#home" className="nav__logo">Eri Schön</a>
+            </div>
 
             <div className="nav__menu">
                 <ul className="nav__list">
