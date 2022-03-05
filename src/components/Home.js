@@ -12,10 +12,12 @@ function Home() {
             <h3 className="home__education">Développeur d'Application Web Freelance</h3>
 
             <div className="home__buttons">
-                <a download="" href="./assets/pdf/cv-eri-schon.pdf" className="button button--ghost">
-                    Télécharger le CV
-                </a>
-                <a href="#about" className="button">A propos</a>
+                {/* 
+                    <a download="" href="./assets/pdf/cv-eri-schon.pdf" className="button button--ghost">
+                        Télécharger le CV
+                    </a>
+                */}
+                <a href="#contact" className="button">Me contacter</a>
             </div>
         </div>
 
