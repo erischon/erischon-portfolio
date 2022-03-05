@@ -4,7 +4,7 @@ import bsharpe from "../assets/img/b-sharpe.jpg"
 
 function Testimonial() {
   return (
-    <section className="testimonial section">
+    <section className="testimonial section" id="testimonial">
         <span className="section__subtitle">Ce que mes Clients disent de moi</span>
         <h2 className="section__title">Témoignages</h2>
 
