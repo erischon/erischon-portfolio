@@ -51,17 +51,17 @@ function Contact() {
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="contact__form--div">
                         <label htmlFor="" className="contact__form--tag">Nom</label>
-                        <input type="text" placeholder="Votre nom" className="contact__form--input" />
+                        <input type="text" name="nom" placeholder="Votre nom" className="contact__form--input" />
                     </div>
 
                     <div className="contact__form--div">
                         <label htmlFor="" className="contact__form--tag">Email</label>
-                        <input type="email" placeholder="Votre email" className="contact__form--input" />
+                        <input type="email" name="email" placeholder="Votre email" className="contact__form--input" />
                     </div>
 
                     <div className="contact__form--div contact__form--area">
                         <label htmlFor="" className="contact__form--tag">Projet</label>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Votre projet" className="contact__form--input"></textarea>
+                        <textarea name="texte" id="" cols="30" rows="10" placeholder="Votre projet" className="contact__form--input"></textarea>
                     </div>
 
                     <button type="submit" className="button">Envoyer le message</button>
