@@ -4,7 +4,7 @@ function Services() {
   return (
     <section className="services section" id="services">
         <span className="section__subtitle">Mes Services</span>
-        <h2 className="section__title">Je soutiens la réalisation de vos Projets Web</h2>
+        <h2 className="section__title">Je SOUTIENS la réalisation de vos Projets Web</h2>
 
         <div className="services__container container grid">
             <div className="services__card">
