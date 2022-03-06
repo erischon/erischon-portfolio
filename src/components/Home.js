@@ -9,7 +9,7 @@ function Home() {
         <div className="home__data">
             <span className="home__greeting">Bonjour, je suis</span>
             <h1 className="home__name">Eri Schön</h1>
-            <h3 className="home__education">Développeur d'Application Web Freelance</h3>
+            <h3 className="home__education">Développeur d'Applications Web</h3>
 
             <div className="home__buttons">
                 {/* 
