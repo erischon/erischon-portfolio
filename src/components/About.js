@@ -33,7 +33,7 @@ function About() {
                 </div>
 
                 <p className="about__description">
-                    Je suis un Développeur d'Application Freelance ayant une expertise en création et modification d’application Web et d’API REST.<br />
+                    Je suis un Développeur d'Applications Web Freelance ayant une expertise en création, modification et entretien d’applications Web.<br />
                     
                 </p>
 
