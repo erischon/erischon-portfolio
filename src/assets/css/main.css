@@ -137,23 +137,36 @@ body.light-theme {
   color: var(--text-color);
 }
 
-.light-theme .home__social--link {
+.light-theme .home__social--link,
+.light-theme .footer__social--link {
   box-shadow: 0 2px 8px hsla(var(--second-hue), 48%, 8%, .1);
 }
 
-.light-theme .home__social::after,
-.light-theme .footer__social--link {
+.light-theme .footer__social--link:hover {
+  background-color: var(--first-color);
+  color: #fff;
+}
+
+.light-theme .home__social::after {
   background-color: var(--body-color);
 }
 
 .light-theme .button,
 .light-theme .button:hover,
-.light-theme .active-work,
+.light-theme .active-work {
+  color: var(--body-color);
+}
+
+.light-theme .footer {
+  background-color: hsla(var(--second-hue), 32%, 90%, .3);
+}
+
 .light-theme .footer__title,
 .light-theme .footer__link,
 .light-theme .footer__copy {
-  color: var(--body-color);
+  color: var(--text-color);
 }
+
 
 .light-theme .home__social--link,
 .light-theme .home__scroll {
@@ -798,7 +811,7 @@ body.light-theme {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--first-color);
+  background-color: var(--container-color);
 }
 
 .footer__container {
@@ -807,7 +820,7 @@ body.light-theme {
 
 .footer__title,
 .footer__link {
-  color: var(--body-color);
+  color: var(--text-color);
 }
 
 .footer__title {
@@ -829,8 +842,8 @@ body.light-theme {
 }
 
 .footer__social--link {
-  background-color: var(--body-color);
-  color: var(--first-color);
+  background-color: var(--text-color);
+  color: var(--body-color);
   padding: .25rem;
   border-radius: .25rem;
   font-size: 1rem;
