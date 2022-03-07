@@ -48,7 +48,7 @@ function Skills() {
                         <div className="skills__data">
                             <i className='bx bx-badge-check' ></i>                            
                             <div>
-                                <h3 className="skills__name">Gatsby</h3>
+                                <h3 className="skills__name">Tailwind</h3>
                             </div>
                         </div>
                     </div>
@@ -78,6 +78,12 @@ function Skills() {
                                 <h3 className="skills__name">PostgreSQL</h3>
                             </div>
                         </div>
+                        <div className="skills__data">
+                            <i className='bx bx-badge-check' ></i>  
+                            <div>
+                                <h3 className="skills__name">REST</h3>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="skills__group">
@@ -99,6 +105,12 @@ function Skills() {
                                 <h3 className="skills__name">MongoDB</h3>
                             </div>
                         </div>
+                        <div className="skills__data">
+                            <i className='bx bx-badge-check' ></i>  
+                            <div>
+                                <h3 className="skills__name">GraphQL</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,7 +123,7 @@ function Skills() {
                     <div className="skills__data">
                         <i className='bx bxl-git'></i>           
                         <div>
-                            <h3 className="skills__name">Git</h3>
+                            <h3 className="skills__name">Github</h3>
                         </div>
                     </div>
                     <div className="skills__data">
@@ -123,7 +135,7 @@ function Skills() {
                     <div className="skills__data">
                         <i className='bx bx-badge-check' ></i>
                         <div>
-                            <h3 className="skills__name">TDD</h3>
+                            <h3 className="skills__name">Vercel</h3>
                         </div>
                     </div>
                 </div>
