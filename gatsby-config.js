@@ -1,11 +1,14 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://www.erischon.dev`,
-        title: "Eri Schön Portfolio",
-        description: "Le Portfolio de Eri Schön, Développeur d'Application Web Freelance utilisant Django, Python, React, Nodejs, PostgreSQL, ..."
+        title: `Eri Schön Portfolio`,
+        description: `Eri Schön, Développeur d'Application Web Freelance`,
+        author: `Eri Schön`,
+        keywords: `Django, Python, ReactJS, NodeJS, PostgreSQL, `,
+        siteUrl: `https://portfolio.erischon.dev`,
+        twitterUsername: `@erischon`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
-        'gatsby-plugin-netlify'
+        'gatsby-plugin-netlify',
     ]
 }
