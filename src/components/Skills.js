@@ -129,26 +129,20 @@ function Skills() {
                         </div>
                     </div>
                     <div className="skills__data">
-                        <i className='bx bxl-firebase'></i>   
-                        <div>
-                            <h3 className="skills__name">Firebase</h3>
-                        </div>
-                    </div>                                
-                    <div className="skills__data">
-                        <SiVercel />
-                        <div>
-                            <h3 className="skills__name">Vercel</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="skills__group">
-                    <div className="skills__data">
                         <i className='bx bxl-docker' ></i> 
                         <div>
                             <h3 className="skills__name">Docker</h3>
                         </div>
                     </div>
+                    <div className="skills__data">
+                        <i className='bx bxl-firebase'></i>   
+                        <div>
+                            <h3 className="skills__name">Firebase</h3>
+                        </div>
+                    </div>                                
+                </div>
+
+                <div className="skills__group">
                     <div className="skills__data">
                         <i className='bx bxl-digitalocean' ></i>       
                         <div>
@@ -159,6 +153,12 @@ function Skills() {
                         <i className='bx bxl-netlify' ></i>          
                         <div>
                             <h3 className="skills__name">Netlify</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <SiVercel />
+                        <div>
+                            <h3 className="skills__name">Vercel</h3>
                         </div>
                     </div>
                 </div>
