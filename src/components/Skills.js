@@ -1,4 +1,6 @@
 import React from 'react'
+import { SiNextdotjs, SiTailwindcss, SiPostgresql, SiMongodb, SiGraphql, SiVercel } from "react-icons/si"
+import { FiSettings } from "react-icons/fi"
 
 function Skills() {
   return (
@@ -40,13 +42,13 @@ function Skills() {
                             </div>
                         </div>
                         <div className="skills__data">
-                            <i className='bx bx-badge-check' ></i>           
+                            <SiNextdotjs />           
                             <div>
                                 <h3 className="skills__name">Next.js</h3>
                             </div>
                         </div>                                
                         <div className="skills__data">
-                            <i className='bx bx-badge-check' ></i>                            
+                            <SiTailwindcss />                            
                             <div>
                                 <h3 className="skills__name">Tailwind</h3>
                             </div>
@@ -73,15 +75,15 @@ function Skills() {
                             </div>
                         </div>                                
                         <div className="skills__data">
-                            <i className='bx bx-data'></i>  
+                            <SiPostgresql />  
                             <div>
                                 <h3 className="skills__name">PostgreSQL</h3>
                             </div>
                         </div>
                         <div className="skills__data">
-                            <i className='bx bx-badge-check' ></i>  
+                            <FiSettings />  
                             <div>
-                                <h3 className="skills__name">REST</h3>
+                                <h3 className="skills__name">REST API</h3>
                             </div>
                         </div>
                     </div>
@@ -100,13 +102,13 @@ function Skills() {
                             </div>
                         </div>                                
                         <div className="skills__data">
-                            <i className='bx bx-data'></i>             
+                            <SiMongodb />             
                             <div>
                                 <h3 className="skills__name">MongoDB</h3>
                             </div>
                         </div>
                         <div className="skills__data">
-                            <i className='bx bx-badge-check' ></i>  
+                            <SiGraphql />  
                             <div>
                                 <h3 className="skills__name">GraphQL</h3>
                             </div>
@@ -133,7 +135,7 @@ function Skills() {
                         </div>
                     </div>                                
                     <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
+                        <SiVercel />
                         <div>
                             <h3 className="skills__name">Vercel</h3>
                         </div>
