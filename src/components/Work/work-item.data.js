@@ -8,7 +8,7 @@ export const workData = [
         liveUrl: "https://whatcolors.netlify.app/",
         backUrl: "https://github.com/erischon/whatcolors-back",
         frontUrl: "https://github.com/erischon/whatcolors-front",
-        tags: ["PostgreSQL", "Express", "React", "Node.js", "REST API"]
+        tags: ["Firebase", "Express", "React", "Node.js", "Tailwindcss"]
     },
     {
         id: "2",
