@@ -60,7 +60,7 @@
     color: var(--text-color);
     font-size: var(--tiny-font-size);
     font-weight: var(--font-semibold);
-    margin-right: 1rem;
+    margin-right: .55rem;
 }
   
 .work__button--container {
